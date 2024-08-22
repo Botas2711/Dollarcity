@@ -1,0 +1,34 @@
+Usuario 1
+----------------------
+NombreUsuario: admin
+Contraseñia: admin123
+
+Usuario 2
+----------------------
+NombreUsuario: maria_g
+Contraseñia: maria2024
+
+Usuario 3
+----------------------
+NombreUsuario: juan_p
+Contraseñia: juan2024
+
+Usuario 4
+----------------------
+NombreUsuario: ana_l
+Contraseñia: ana2024
+
+Usuario 5
+----------------------
+NombreUsuario: carlos_r
+Contraseñia: carlos2024
+
+Usuario 6
+----------------------
+NombreUsuario: sofia_m
+Contraseñia: sofia2024
+
+Usuario 7
+----------------------
+NombreUsuario: luis_h
+Contraseñia: luis2024
