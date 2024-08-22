@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="90b32f2999b142eb91ac8a462a94313c" Name="Diagram1">
+        <EntityTypeShape EntityType="ModelEF.Boleta" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Categoria" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.DetalleBoleta" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Inventario" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Producto" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.ProductoInventario" Width="1.5" PointX="8.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Sucursal" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEF.Vendedor" Width="1.5" PointX="5.75" PointY="9.25" IsExpanded="true" />
+        <AssociationConnector Association="ModelEF.Boleta_Sucursal" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.DetalleBoleta_Boletas" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.Producto_Categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.DetalleBoleta_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.Inventario_Sucursal" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.ProductoInventario_Inventario" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEF.ProductoInventario_Producto" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
